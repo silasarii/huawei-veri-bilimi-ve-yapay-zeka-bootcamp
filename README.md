@@ -1,7 +1,6 @@
 # 🚀 Huawei Student Developers - Veri Bilimi ve Makine Öğrenmesi Bootcamp
 
-
-**Türkiye Yapay Zeka Akademisi** ve **Huawei Student Developers (HSD)** iş birliğiyle düzenlenen 3 haftalık online Veri Bilimi ve Makine Öğrenmesi Bootcamp süresince tamamladığım ödevler, projeler ve uygulama çalışmalarını içeren GitHub deposudur.
+**Türkiye Yapay Zeka Akademisi** ve **Huawei Student Developers (HSD)** iş birliğiyle düzenlenen 3 haftalık online Veri Bilimi ve Makine Öğrenmesi Bootcamp süresince tamamladığım tüm ödevler, projeler ve uygulama çalışmalarını içeren GitHub deposudur.
 
 ---
 
@@ -10,7 +9,7 @@
 Bu eğitim programı kapsamında; Python programlama temelinden başlayarak veri analizi, veri ön işleme, veri görselleştirme ve temel makine öğrenmesi algoritmaları uygulamalı olarak ele alınmıştır. Eğitimler online ders içerikleri ve haftalık canlı mentörlük oturumları ile desteklenmiştir.
 
 ### 🎯 Programın Amacı
-- **Python** programlama dilinin temel ve ileri seviye yapılarını etkin kullanabilmek.
+- **Python** programlama dilinin temel ve ileri seviye yapılarını (OOP, dosya işlemleri, hata yönetimi vb.) etkin kullanabilmek.
 - **NumPy, Pandas, Matplotlib & Seaborn** gibi temel veri bilimi kütüphanelerine hakim olmak.
 - Gerçek dünya veri setleri üzerinde **Veri Temizleme (Data Cleaning)** ve **Aykırı Değer Analizi (Outlier Analysis)** gerçekleştirebilmek.
 - Temel **Makine Öğrenmesi (Machine Learning)** modellerini (Sınıflandırma, Regresyon, Kümeleme) eğitmek ve metriklerle değerlendirmek.
@@ -29,44 +28,30 @@ Bu eğitim programı kapsamında; Python programlama temelinden başlayarak veri
 
 ---
 
-## 📚 Haftalık Program Akışı ve Uygulamalar
+## 📚 Haftalık Program Akışı ve Çalışmalar
 
 <details>
 <summary><b>1. Hafta: Python Programlama Temelleri</b></summary>
 
-- **Odak Noktası:** Python kurulumu, geliştirme ortamları (VS Code), değişkenler, veri tipleri, koşul/döngü yapıları, fonksiyonlar ve dosya yönetimi.
-- **Kütüphaneler:** NumPy, Pandas, Matplotlib temelleri.
-- **Uygulama/Proje:** Öğrenci Not Analiz Projesi
+- **Odak Noktası:** VS Code kullanımı, değişkenler, kontrol yapıları, fonksiyonlar, dosya işlemleri, hata yönetimi, OOP ve veri bilimi kütüphanelerine giriş.
+- **İçerik:** Temel alıştırmalar, mini projeler ve *Öğrenci Not Analizi Projesi*.
 </details>
 
 <details>
 <summary><b>2. Hafta: Veri Bilimi ve Keşifçi Veri Analizi (EDA)</b></summary>
 
-- **Odak Noktası:** Veri seti yükleme, ilk incelemeler, eksik veri (Missing Data) yönetimi, veri tipi dönüşümleri, aykırı değer analizi, kategorik ve sayısal değişken analizi.
-- **Teknikler:** Veri görselleştirme ve iş verisinden hikaye oluşturma.
+- **Odak Noktası:** E-ticaret veri seti üzerinde veri tanıma, eksik/aykırı değer yönetimi, kategorik/sayısal analizler, veri görselleştirme ve iş hikayeleştirmesi.
+- **İçerik:** Ara ödev (Veri Temizleme & EDA) ve Final ödevi (Kategori, Şehir, Ödeme Türü ve Zaman Serisi Analizleri).
 </details>
 
 <details>
 <summary><b>3. Hafta: Makine Öğrenmesi (Machine Learning)</b></summary>
 
-- **Odak Noktası:** Problem türleri, Veri Ön İşleme (Preprocessing), Train-Test Ayrımı, Model Değerlendirme Metrikleri, Hiperparametre Optimizasyonu.
-- **Algoritmalar:**
-  - *Denetimli Öğrenme:* Doğrusal Regresyon, Lojistik Regresyon, KNN, Karar Ağaçları, SVM
-  - *Denetimsiz Öğrenme:* K-Means, Hiyerarşik Kümeleme, PCA
-  - *Doğrulama:* Cross Validation
+- **Odak Noktası:** Sınıflandırma problemleri, veri ön işleme, Train-Validation-Test ayrımı, model eğitimi, hiperparametre optimizasyonu ve metrik değerlendirmesi.
+- **İçerik:**
+  - *Ara Ödev:* Müşteri Ayrılma (*Customer Churn*) Tahmini.
+  - *Final Ödevi:* Bank Marketing Veri Seti üzerinde Uçtan Uca Makine Öğrenmesi Projesi.
 </details>
-
----
-
-## 📝 Final Çıktısı (Medium Makalesi)
-
-Bootcamp bitiminde, öğrenilen konuların pratiğe dökülmesi amacıyla hazırlanan final projesi kapsamı:
-1. Veri seti seçimi ve problemin tanımlanması
-2. Keşifçi Veri Analizi (EDA) ve Görselleştirme
-3. Veri Ön İşleme ve Model Eğitimi
-4. Model Sonuçlarının Değerlendirilmesi ve İletimi
-
-✍️ *Final projesi kapsamında yayınlanan Medium makalesine **Buradan Ulaşabilirsin (Yakında)**.*
 
 ---
 
@@ -87,15 +72,23 @@ Bootcamp bitiminde, öğrenilen konuların pratiğe dökülmesi amacıyla hazır
 │   ├── 12_ogrenci_not_analizi_projesi.ipynb
 │   └── README.md
 ├── Veri-Bilimi/
+│   ├── e_ticaret_veri_seti.csv
+│   ├── temizlenmis_veri.csv
 │   ├── ara_odev.ipynb
 │   ├── final_odevi.ipynb
 │   └── README.md
 ├── Makine-Ogrenmesi/
+│   ├── ara_odev.ipynb
+│   ├── final_odevi.ipynb
+│   ├── bank-full.csv
+│   ├── musteri_churn_120.csv
 │   └── README.md
 └── README.md
 ```
----
+<div align="center">
 
 ### 👤 Sıla Sarı
-🎓 **Dokuz Eylül Üniversitesi - Ekonometri**     
-**LinkedIn:** www.linkedin.com/in/sıla-sarı
+🎓 **Dokuz Eylül Üniversitesi - Ekonometri**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sıla-sarı-5293451a4)
+
