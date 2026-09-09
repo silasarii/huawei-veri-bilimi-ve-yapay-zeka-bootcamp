@@ -58,37 +58,36 @@ Bu eğitim programı kapsamında; Python programlama temelinden başlayarak veri
 ## 📂 Depo Yapısı
 
 ```text
-.
-├── Python/
-│   ├── 02_temel_yapilar_odev.ipynb
-│   ├── 03_donguler_kontrol_yapilari_odev.ipynb
+├── 01-python/
+│   ├── 02_temel_yapilar.ipynb
+│   ├── 03_donguler_kontrol_yapilari.ipynb
 │   ├── 04_fonksiyonlar_mini_proje.ipynb
-│   ├── 05_dosya_islemleri_odev.ipynb
-│   ├── 06_hata_yonetimi_mini_proje.ipynb
-│   ├── 08_numpy_odev.ipynb
-│   ├── 09_pandas_odev.ipynb
-│   ├── 10_matplotlib_odev.ipynb
-│   ├── 11_nesne_yonelimli_mini_proje.ipynb
-│   ├── 12_ogrenci_not_analizi_projesi.ipynb
-│   └── README.md
-├── Veri-Bilimi/
-│   ├── e_ticaret_veri_seti.csv
-│   ├── temizlenmis_veri.csv
-│   ├── ara_odev.ipynb
-│   ├── final_odevi.ipynb
-│   └── README.md
-├── Makine-Ogrenmesi/
-│   ├── ara_odev.ipynb
-│   ├── final_odevi.ipynb
-│   ├── bank-full.csv
-│   ├── musteri_churn_120.csv
-│   └── README.md
+│   ├── 05_dosya_islemleri.ipynb
+│   ├── 06_hata_yonetimi.ipynb
+│   ├── 08_numpy.ipynb
+│   ├── 09_pandas.ipynb
+│   ├── 10_matplotlib.ipynb
+│   ├── 11_nesne_yonelimli_programlama.ipynb
+│   └── 12_ogrenci_not_analizi_projesi.ipynb
+├── 02-veri-bilimi/
+│   ├── data/
+│   │   ├── e_ticaret_veri_seti.csv
+│   │   └── temizlenmis_veri.csv
+│   ├── e_ticaret_ara_analiz.ipynb             
+│   └── e_ticaret_kesifsel_veri_analizi.ipynb  
+├── 03-makine-ogrenmesi/
+│   ├── data/
+│   │   ├── bank-full.csv
+│   │   └── musteri_churn_120.csv
+│   ├── musteri_churn_siniflandirma.ipynb      
+│   └── banka_pazarlama_tahmini.ipynb          
 └── README.md
 ```
+
 <div align="center">
 
 ### 👤 Sıla Sarı
 🎓 **Dokuz Eylül Üniversitesi - Ekonometri**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sıla-sarı-5293451a4)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sıla-sarı)
 
