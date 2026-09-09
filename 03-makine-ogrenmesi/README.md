@@ -8,8 +8,8 @@ Bu klasör, **Huawei Student Developers** ve **Türkiye Yapay Zeka Akademisi** i
 
 | Dosya Adı | Konu / Açıklama |
 | :--- | :--- |
-| `ara_odev.ipynb` | Müşteri Ayrılma (Customer Churn) tahmini odaklı temel makine öğrenmesi akışı |
-| `final_odevi.ipynb` | Bank Marketing veri seti üzerinde geliştirilen uçtan uca makine öğrenmesi ve hiperparametre optimizasyonu projesi |
+| `musteri_churn_siniflandirma.ipynb` | Müşteri Ayrılma (Customer Churn) tahmini odaklı temel makine öğrenmesi akışı |
+| `banka_pazarlama_tahmini.ipynb` | Bank Marketing veri seti üzerinde geliştirilen uçtan uca makine öğrenmesi ve hiperparametre optimizasyonu projesi |
 
 ---
 
@@ -24,7 +24,7 @@ Bu klasör, **Huawei Student Developers** ve **Türkiye Yapay Zeka Akademisi** i
 
 ## 📌 Ödev Detayları ve Uygulama Akışları
 
-### 📄 1. Ara Ödev (`ara_odev.ipynb`)
+### 📄 1. Ara Ödev (`musteri_churn_siniflandirma.ipynb`)
 **Müşteri Ayrılma Tahmini ile Temel Makine Öğrenmesi Akışı**
 1. **Veri Hazırlama & İnceleme:** Veri setinin yapısal özellikleri, ilk satırları ve hedef değişken (`churn`) sınıf dağılımı analizi.
 2. **Ön İşleme & Öznitelik Mühendisliği:**
@@ -40,7 +40,7 @@ Bu klasör, **Huawei Student Developers** ve **Türkiye Yapay Zeka Akademisi** i
 
 ---
 
-### 📄 2. Final Ödevi (`final_odevi.ipynb`)
+### 📄 2. Final Ödevi (`banka_pazarlama_tahmini.ipynb`)
 **Uçtan Uca Makine Öğrenmesi Projesi (Bank Marketing)**
 1. **Problem Tanımı & EDA:** 45.211 gözlemli Bank Marketing veri seti üzerinde müşteri vadeli mevduat katılım tahmini
 2. **Gelişmiş Ön İşleme:**
